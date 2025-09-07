@@ -46,7 +46,7 @@ section header {
     gap: 8px;
   }
 
-  span {
+  span .content-tag {
     width: 16px;
     height: 16px;
   }
@@ -56,5 +56,20 @@ section header {
   }
   img {
     height: 160px;
+  }
+
+  figure {
+    position: relative;
+  }
+
+  .content-tag {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+  }
+
+  p {
+    margin-top: 8px;
+    font-weight: 900;
   }
 }
