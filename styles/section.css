@@ -46,11 +46,6 @@ section header {
     gap: 8px;
   }
 
-  span .content-tag {
-    width: 16px;
-    height: 16px;
-  }
-
   & > div {
     grid-template-columns: repeat(4, 292px);
   }
@@ -72,4 +67,9 @@ section header {
     margin-top: 8px;
     font-weight: 900;
   }
+}
+
+.mais-lidas {
+  align-items: flex-start;
+  gap: 16px;
 }
