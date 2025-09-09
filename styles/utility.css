@@ -1,3 +1,4 @@
+/* utility-first */
 .grid {
   display: grid;
 }
@@ -12,6 +13,10 @@
 
 .gap-16 {
   gap: 16px;
+}
+
+.gap-32 {
+  gap: 32px;
 }
 
 .text-2xl {
